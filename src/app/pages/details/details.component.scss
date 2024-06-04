@@ -1,0 +1,53 @@
+/* Estilo para o contêiner principal */
+.product-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1c1c1c; /* Cor de fundo escura */
+    color: #f8f8f8; /* Cor do texto clara */
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+}
+
+/* Estilo para o título do produto */
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a descrição do produto */
+.product-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem do produto */
+.product-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo para o preço do produto */
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700; /* Cor dourada */
+}
+
+/* Estilo para o botão de compra */
+.buy-button {
+    background-color: #ffd700; /* Cor de fundo dourada */
+    color: #1c1c1c; /* Cor do texto escura */
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Estilo para o botão de compra quando hover */
+.buy-button:hover {
+    background-color: #ff9900; /* Cor de fundo alaranjada no hover */
+}

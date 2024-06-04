@@ -1,0 +1,20 @@
+<div class="Filter">
+    <input type="text" pInputText [(ngModel)]="filteredValue" placeholder="Digite o item desejado"/>
+
+    <select [(ngModel)]="isAvailable">
+        <option value="">Todos</option>
+        <option value="true">Disponível</option>
+        <option value="false">Indisponível</option>
+    </select>
+
+
+
+    <select [(ngModel)]="sortOrder">
+        <option value="ASC">ASC</option>
+        <option value="DESC">DESC</option>
+    </select>
+    <div class="Filter__actions">
+        <p-button (click)="searchProductByName()" label="Buscar"></p-button>
+        <p-button (click)="clearFilter()" label="Limpar"></p-button>
+    </div>
+</div>

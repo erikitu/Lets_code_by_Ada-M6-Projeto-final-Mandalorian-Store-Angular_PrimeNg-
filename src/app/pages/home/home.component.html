@@ -1,0 +1,3 @@
+
+<app-filter (filterEmitter)="filterProductsByName($event)"></app-filter>
+<app-product-list [productList]="productList" (showProductDetails)="getProductDetails($event)"></app-product-list>

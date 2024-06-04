@@ -1,0 +1,14 @@
+<p>details works!</p>
+{{product?.name}}
+{{product?.description}}
+{{product?.rating}}
+<div class="product-details">
+    <h1 class="product-title">{{product?.name}}</h1>
+    <p class="product-description">{{product?.description}}</p>
+    <img [alt]="product?.name" [src]="product?.image" />
+    <div class="price">
+        <span class="currency-icon">&#x20BF;</span>
+        <span class="Product__price">{{product?.price}}</span>
+    </div>
+    <button class="buy-button">Comprar</button>
+</div>

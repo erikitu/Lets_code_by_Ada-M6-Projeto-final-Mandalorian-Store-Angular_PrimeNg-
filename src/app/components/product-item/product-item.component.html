@@ -1,0 +1,24 @@
+<!-- <div class="Product">
+    <img [src]="product.image" [alt]="product.name" class="Product__image">   
+    <span class="Product__isAvailable">{{product.isAvailable? "Disponível":"Indisponível"}}</span>
+    <span class="Product__name">{{product.name}}</span>
+    <p-rating [(ngModel)]="product.rating" [cancel]="false" [readonly]="true"></p-rating>
+
+    <span class="Product__price">{{product.price}}</span>
+    <p-button (click)="clickHandler()" label="DETALHES"></p-button>
+</div> -->
+<div class="card-container">
+    <p-card  [header]="product.name" [style]="{ width: '250px' }">
+        <ng-template pTemplate="header">
+            <img [alt]="product.name" [src]="product.image" />
+        </ng-template>
+        <p-rating [(ngModel)]="product.rating" [cancel]="false" [readonly]="true"></p-rating>
+        <div class="price">
+            <span class="currency-icon">&#x20BF;</span>
+            <span class="Product__price">{{product.price}}</span>
+        </div>
+        <ng-template pTemplate="footer">
+            <p-button (click)="clickHandler()" label="DETALHES"></p-button>
+        </ng-template>
+    </p-card>
+</div>

@@ -1,0 +1,18 @@
+/* Estilos para o header */
+.Header {
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: #fed34f;            /* Texto claro */
+    font-size: 24px;           /* Tamanho da fonte */
+    text-align: center;        /* Centralizar o texto */
+    padding: 20px 0;           /* Espaçamento interno */
+    border-bottom: 3px solid #a0a0a0; /* Borda inferior */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px;       /* Espaçamento entre letras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+    transform: perspective(300px) rotateX(25deg);
+}
+
+span {
+    font-weight: bold;
+}
+

@@ -1,0 +1,20 @@
+footer {
+    background-color: #1c1c1c; 
+    color: #fed34f;            
+    font-size: 12px;           
+    text-align: center;        
+    padding: 20px 0;           
+    border-top: 3px solid #a0a0a0; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transform: perspective(300px) rotateX(25deg);
+}
+
+footer span {
+    color: #fed34f;
+}
+a {
+    text-decoration: none;
+    color: #fff;  
+}

@@ -1,0 +1,19 @@
+.Filter {
+    display: flex;
+    margin: auto;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+}
+select {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 4px;
+}
+.Filter__actions {
+    display: flex;
+    align-items: center;
+}
+p-button + p-button {
+    margin-left: 8px;
+}
